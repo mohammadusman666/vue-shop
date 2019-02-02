@@ -1,8 +1,11 @@
-// this is the main javascript file
-
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
+import jQuery from 'jquery'; // imports jquery
+window.$ = window.jQuery = jQuery; // initialize $ sign for jquery
+import 'popper.js'; // imports popper.js
+import 'bootstrap'; // imports js files of bootstrap
+import './assets/app.scss'; // imports app.scss which imports css files of bootstrap
 
 Vue.config.productionTip = false;
 
