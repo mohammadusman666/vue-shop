@@ -1,4 +1,4 @@
-<template>
+<template> 
 	<div class="hello">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
             <router-link to="/home" class="navbar-brand">Vue Shop</router-link>
