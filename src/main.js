@@ -8,8 +8,6 @@ import 'bootstrap'; // imports js files of bootstrap
 import './assets/app.scss'; // imports app.scss which imports css files of bootstrap
 
 Vue.component('NavBar', require('./components/NavBar.vue').default);
-Vue.component('Hero', require('./components/Hero.vue').default);
-Vue.component('Products', require('./sections/Products.vue').default);
 
 Vue.config.productionTip = false;
 

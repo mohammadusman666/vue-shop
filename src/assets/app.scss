@@ -1,1 +1,10 @@
 @import '~bootstrap/scss/bootstrap'; // imports css files of bootstrap
+@import './admin.scss'; // imports admin.scss
+
+body {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.custom-btn {
+    padding: 0.5rem 2.5rem;
+}

@@ -1,8 +1,5 @@
 <template>
 	<div id="app">
-		<NavBar></NavBar>
-		<Hero></Hero>
-		<Products></Products>
 		<router-view />
 	</div>
 </template>
